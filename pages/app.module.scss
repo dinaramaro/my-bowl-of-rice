@@ -1,0 +1,10 @@
+.title {
+
+    color: #8498B6;
+    border-bottom: solid 2px darken($color-primary, 10);
+
+    strong {
+        color: $color-secondary;
+    }
+
+}

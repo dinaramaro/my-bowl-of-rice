@@ -1,0 +1,19 @@
+.recipePage {
+    min-height: 100vh;
+
+    .gridContainer {
+
+
+        .leftContentBox {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .rightContentBox {
+            display: flex;
+            flex-direction: column;
+
+            .image {}
+        }
+    }
+}
