@@ -1,4 +1,6 @@
 import '../styles/globals.css';
+import { env } from 'process';
+
 import type { AppProps } from 'next/app';
 import CssBaseline from '@mui/material/CssBaseline';
 import { initializeApp } from 'firebase/app';
@@ -8,7 +10,7 @@ import theme from '../theme';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyAfkI7jCNsF82itUTZeGUcYfDUNU4lycFM',
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: 'my-bowl-of-rice.firebaseapp.com',
   projectId: 'my-bowl-of-rice',
   storageBucket: 'my-bowl-of-rice.firebasestorage.app',
